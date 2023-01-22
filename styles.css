@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: "Merriweather", serif;
+    color: #40514E;
 }
 .top-container {
     background-color: #E4F9F5;
@@ -17,6 +18,7 @@ h1 {
 h2{
     color: #66BFBF;
     font-family: 'Monserrat', sans-serif;
+    padding-bottom: 10px;
 
 }
 h3 {
@@ -29,27 +31,87 @@ h3 {
 .top-cloud {
     position: absolute;
     right: 400px;
-    top: 50px;
+    top: 40px;
 }
 .bottom-cloud {
     position: absolute;
-    left: 400px;
+    left: 280px;
     bottom: 300px;
 }
 .skill-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 1.5;
 }
 .middle-container {
     margin-top: 20px;
+    padding: 100px 0;
 }
 .computer_png {
     border-radius: 70%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 .skills-img {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    float: right;
+    margin-right: 30px;
 
 }
+.profile-pic {
+    width: 30;
+    height: 30;
+    border-radius: 50%;
+    padding: 5px;
+}
+hr {
+    border: dotted #EAf6f6 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: 100px auto;
+}
+.intro {
+    width: 30%;;
+    margin: auto;
+}
+p {
+    line-height: 1.5;
+}
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* ================= Button ========== */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Monserrat', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 9px 40px 11px 40px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
