@@ -37,8 +37,19 @@ h3 {
     bottom: 300px;
 }
 .skill-row {
-    border-radius: 80%;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
 }
 .middle-container {
     margin-top: 20px;
+}
+.computer_png {
+    border-radius: 70%;
+}
+.skills-img {
+    width: 50%;
+    height: 50%;
+
 }
