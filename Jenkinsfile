@@ -14,7 +14,7 @@ pipeline {
         } 
         stage('Create a container') {
             steps {
-                sh 'docker run -d --name httpd -p 90:80 blog:v1'
+                sh 'docker run -d --name blog -p 90:80 blog:v1'
             }
         }
         stage('Dangling Image remove') {
