@@ -17,11 +17,11 @@ pipeline {
                 sh 'docker run -d --name blog -p 90:80 blog:v1'
             }
         }
-        // stage('Dangling Image remove') {
-        //     steps {
-        //         sh 'docker images prune'
-        //     }
-        // }
+        stage('Dangling Image remove') {
+            steps {
+                sh 'docker image prune -f'
+            }
+        }
 
         
     }
