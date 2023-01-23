@@ -120,3 +120,20 @@ p {
     position: relative;
 
   }
+  .download-resume
+{
+    background-color: #E4F9F5;
+    position: relative;
+    
+}
+.resume {
+    color: #66BFBF;
+    text-decoration: none;
+    margin-left: 1300px;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-family: 'Monserrat', sans-serif;
+}
+.resume:hover {
+    color: black;
+}
