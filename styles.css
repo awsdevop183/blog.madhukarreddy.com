@@ -74,6 +74,7 @@ hr {
 .intro {
     width: 30%;;
     margin: auto;
+    font-family: 'Monserrat', sans-serif;
 }
 p {
     line-height: 1.5;
